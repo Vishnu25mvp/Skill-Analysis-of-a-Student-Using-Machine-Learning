@@ -1,0 +1,106 @@
+.table-input {
+  border: none;
+  border-bottom: 2px solid #1e39d1;
+}
+
+.table-input:focus{
+  outline: none;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-content {
+  overflow-x: auto;
+  box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+table td,
+table th {
+  border: 0px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #e9edf3;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1e39d1;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.pagination-content{
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  text-decoration: none;
+  background-color: #1e39d1;
+  border-radius: 10%;
+  padding: 8px 16px;
+  color: white;
+  margin: 2px;
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.5);
+}
+
+.pagination-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #6786a9;
+  color: black;
+}
+
+.disable {
+  background-color: #e9edf3;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.pagination-input {
+  width: 30px;
+  padding: 0px 0px 0px 3px;
+  margin: 2px;
+}
+
+.fade {
+    animation: fade 1s ease-out 0s 1 normal forwards;
+} 
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
